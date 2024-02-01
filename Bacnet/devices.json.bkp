@@ -1,0 +1,572 @@
+ {
+  "deviceList":  
+  [
+    {
+      "id": 2001,
+      "ip": "10.0.220.216",
+      "name": "energymeter",
+      "objectList": [
+        {
+          "type": "binaryInput",
+          "id": 11,
+          "name": "HCP-01-RUN",
+          "field_no": 1
+        },
+        {
+          "type": "binaryInput",
+          "id": 12,
+          "name": "HCP-01-TRIP",
+          "field_no": 2
+        },
+        {
+          "type": "binaryInput",
+          "id": 10,
+          "name": "HCP-01-A M",
+          "field_no": 3
+        },
+        {
+          "type": "binaryInput",
+          "id": 14,
+          "name": "HCP-02-RUN",
+          "field_no": 4
+        },
+        {
+          "type": "binaryInput",
+          "id": 15,
+          "name": "HCP-02-TRIP",
+          "field_no": 5
+        },
+        {
+          "type": "binaryInput",
+          "id": 13,
+          "name": "HCP-02-A M",
+          "field_no": 6
+        },
+        {
+          "type": "binaryInput",
+          "id": 17,
+          "name": "HCP-03-RUN",
+          "field_no": 7
+        },
+        {
+          "type": "binaryInput",
+          "id": 18,
+          "name": "HCP-03-TRIP",
+          "field_no": 8
+        },
+        {
+          "type": "binaryInput",
+          "id": 16,
+          "name": "HCP-03-A M",
+          "field_no": 9
+        },
+        {
+          "type": "binaryInput",
+          "id": 20,
+          "name": "HCP-04-RUN",
+          "field_no": 10
+        },
+        {
+          "type": "binaryInput",
+          "id": 21,
+          "name": "HCP-04-TRIP",
+          "field_no": 11
+        },
+        {
+          "type": "binaryInput",
+          "id": 19,
+          "name": "HCP-04-A M",
+          "field_no": 12
+        },
+        {
+          "type": "binaryInput",
+          "id": 3,
+          "name": "I3-MV-01-F.B",
+          "field_no": 13
+        },
+        {
+          "type": "binaryInput",
+          "id": 4,
+          "name": "I4-MV-02-F.B",
+          "field_no": 14
+        },
+        {
+          "type": "binaryInput",
+          "id": 5,
+          "name": "I5-MV-03-F.B",
+          "field_no": 15
+        },
+        {
+          "type": "binaryInput",
+          "id": 1,
+          "name": "I1-SCP-02-RUN",
+          "field_no": 16
+        },
+        {
+          "type": "binaryInput",
+          "id": 2,
+          "name": "I2-SCP-02-TRIP",
+          "field_no": 17
+        },
+        {
+          "type": "analogInput",
+          "id": 89,
+          "name": "S89- T15",
+          "field_no": 18
+        },
+        {
+          "type": "analogInput",
+          "id": 88,
+          "name": "S88- T14",
+          "field_no": 19
+        },
+        {
+          "type": "analogInput",
+          "id": 87,
+          "name": "S87- T13",
+          "field_no": 20
+        },
+        {
+          "type": "analogInput",
+          "id": 85,
+          "name": "S85- T11",
+          "field_no": 21
+        },
+        {
+          "type": "analogInput",
+          "id": 86,
+          "name": "S86- T12",
+          "field_no": 22
+        },
+        {
+          "type": "analogInput",
+          "id": 11,
+          "name": "S11-HOT_WATER_WATTS_TOTAL",
+          "field_no": 23
+        },
+        {
+          "type": "analogInput",
+          "id": 6,
+          "name": "S6-HOT_WATER_MFM_KWH",
+          "field_no": 24
+        }
+      ]
+    },
+    {
+      "id": 2002,
+      "ip": "10.0.220.217",
+      "name": "Heatpump",
+      "objectList": [
+        {
+          "type": "binaryOutput",
+          "id": 1,
+          "name": "HP-01-CMD",
+          "field_no": 25
+        },
+        {
+          "type": "binaryValue",
+          "id": 1,
+          "name": "HP-01-CMD-SWITCH",
+          "field_no": 26
+        },
+        {
+          "type": "binaryOutput",
+          "id": 2,
+          "name": "HP-02-CMD",
+          "field_no": 27
+        },
+        {
+          "type": "binaryValue",
+          "id": 2,
+          "name": "HP-02-CMD-SWITCH",
+          "field_no": 28
+        },
+        {
+          "type": "binaryOutput",
+          "id": 3,
+          "name": "HP-03-CMD",
+          "field_no": 29
+        },
+        {
+          "type": "binaryValue",
+          "id": 3,
+          "name": "HP-03-CMD-SWITCH",
+          "field_no": 30
+        },
+        {
+          "type": "binaryOutput",
+          "id": 4,
+          "name": "HP-04-CMD",
+          "field_no": 31
+        },
+        {
+          "type": "binaryValue",
+          "id": 4,
+          "name": "HP-04-CMD-SWITCH",
+          "field_no": 32
+        },
+        {
+          "type": "binaryOutput",
+          "id": 5,
+          "name": "HWRP-01-CMD",
+          "field_no": 33
+        },
+        {
+          "type": "binaryOutput",
+          "id": 6,
+          "name": "HWRP-02-CMD",
+          "field_no": 34
+        },
+        {
+          "type": "analogInput",
+          "id": 1,
+          "name": "T1",
+          "field_no": 35
+        },
+        {
+          "type": "analogInput",
+          "id": 2,
+          "name": "T2",
+          "field_no": 36
+        },
+        {
+          "type": "analogInput",
+          "id": 3,
+          "name": "T3",
+          "field_no": 37
+        },
+        {
+          "type": "analogInput",
+          "id": 4,
+          "name": "T4",
+          "field_no": 38
+        },
+        {
+          "type": "analogInput",
+          "id": 5,
+          "name": "T5",
+          "field_no": 39
+        },
+        {
+          "type": "analogInput",
+          "id": 6,
+          "name": "T6",
+          "field_no": 40
+        },
+        {
+          "type": "analogInput",
+          "id": 7,
+          "name": "T7",
+          "field_no": 41
+        },
+        {
+          "type": "analogInput",
+          "id": 8,
+          "name": "T8",
+          "field_no": 42
+        },
+        {
+          "type": "analogInput",
+          "id": 9,
+          "name": "T9",
+          "field_no": 43
+        },
+        {
+          "type": "analogInput",
+          "id": 10,
+          "name": "T10",
+          "field_no": 44
+        }
+      ]
+    },
+    {
+      "id": 2003,
+      "ip": "10.0.220.218",
+      "name": "flowmeter",
+      "objectList": [
+        {
+          "type": "binaryValue",
+          "id": 24,
+          "name": "HEAT PUMP BMS AUTO ENABLE",
+          "field_no": 45
+        },
+        {
+          "type": "binaryValue",
+          "id": 3,
+          "name": "HP-01-RUN-SWITCH",
+          "field_no": 46
+        },
+        {
+          "type": "binaryValue",
+          "id": 4,
+          "name": "HP-02-RUN-SWITCH",
+          "field_no": 47
+        },
+        {
+          "type": "binaryValue",
+          "id": 5,
+          "name": "HP-03-RUN-SWITCH",
+          "field_no": 48
+        },
+        {
+          "type": "binaryValue",
+          "id": 6,
+          "name": "HP-04-RUN-SWITCH",
+          "field_no": 49
+        },
+        {
+          "type": "binaryInput",
+          "id": 59,
+          "name": "HWRP-01-RUN",
+          "field_no": 50
+        },
+        {
+          "type": "binaryInput",
+          "id": 60,
+          "name": "HWRP-01-TRIP",
+          "field_no": 51
+        },
+        {
+          "type": "binaryInput",
+          "id": 58,
+          "name": "HWRP-01-A M",
+          "field_no": 52
+        },
+        {
+          "type": "binaryInput",
+          "id": 62,
+          "name": "HWRP-02-RUN",
+          "field_no": 53
+        },
+        {
+          "type": "binaryInput",
+          "id": 63,
+          "name": "HWRP-02-TRIP",
+          "field_no": 54
+        },
+        {
+          "type": "binaryInput",
+          "id": 61,
+          "name": "HWRP-02-A M",
+          "field_no": 55
+        },
+        {
+          "type": "binaryInput",
+          "id": 65,
+          "name": "HWRP-03-RUN",
+          "field_no": 56
+        },
+        {
+          "type": "binaryInput",
+          "id": 66,
+          "name": "HWRP-03-TRIP",
+          "field_no": 57
+        },
+        {
+          "type": "binaryInput",
+          "id": 64,
+          "name": "HWRP-03-A M",
+          "field_no": 58
+        },
+        {
+          "type": "binaryInput",
+          "id": 68,
+          "name": "HWRP-04-RUN",
+          "field_no": 59
+        },
+        {
+          "type": "binaryInput",
+          "id": 69,
+          "name": "HWRP-04-TRIP",
+          "field_no": 60
+        },
+        {
+          "type": "binaryInput",
+          "id": 67,
+          "name": "HWRP-04-A M",
+          "field_no": 61
+        },
+        {
+          "type": "binaryInput",
+          "id": 71,
+          "name": "SCP-01-RUN",
+          "field_no": 62
+        },
+        {
+          "type": "binaryInput",
+          "id": 72,
+          "name": "SCP-01-TRIP",
+          "field_no": 63
+        },
+        {
+          "type": "binaryInput",
+          "id": 70,
+          "name": "SCP-01-A M",
+          "field_no": 64
+        },
+        {
+          "type": "binaryOutput",
+          "id": 21,
+          "name": "MV-01-CMD",
+          "field_no": 65
+        },
+        {
+          "type": "binaryOutput",
+          "id": 26,
+          "name": "MV-02-CMD",
+          "field_no": 66
+        },
+        {
+          "type": "binaryOutput",
+          "id": 22,
+          "name": "MV-03-CMD",
+          "field_no": 67
+        },
+        {
+          "type": "binaryOutput",
+          "id": 23,
+          "name": "MV-04-CMD",
+          "field_no": 68
+        },
+        {
+          "type": "binaryInput",
+          "id": 42,
+          "name": "MV-04-F.B",
+          "field_no": 69
+        },
+        {
+          "type": "binaryOutput",
+          "id": 6,
+          "name": "MV-05-CMD",
+          "field_no": 70
+        },
+        {
+          "type": "binaryInput",
+          "id": 54,
+          "name": "MV-05-F.B",
+          "field_no": 71
+        },
+        {
+          "type": "binaryOutput",
+          "id": 7,
+          "name": "MV-06-CMD",
+          "field_no": 72
+        },
+        {
+          "type": "binaryInput",
+          "id": 55,
+          "name": "MV-06-F.B",
+          "field_no": 73
+        },
+        {
+          "type": "binaryOutput",
+          "id": 16,
+          "name": "MV-07-CMD",
+          "field_no": 74
+        },
+        {
+          "type": "binaryInput",
+          "id": 7,
+          "name": "MV-07-F.B",
+          "field_no": 75
+        },
+        {
+          "type": "binaryOutput",
+          "id": 24,
+          "name": "MV-08-CMD",
+          "field_no": 76
+        },
+        {
+          "type": "binaryInput",
+          "id": 8,
+          "name": "MV-08-F.B",
+          "field_no": 77
+        },
+        {
+          "type": "analogValue",
+          "id": 19,
+          "name": "HP SETPOINT TEMPERATURE",
+          "field_no": 78
+        },
+        {
+          "type": "analogValue",
+          "id": 16,
+          "name": "HWRP Z1 RTN TEMP_SP",
+          "field_no": 79
+        },
+        {
+          "type": "analogValue",
+          "id": 18,
+          "name": "HWRP Z2 RTN TEMP_SP",
+          "field_no": 80
+        },
+        {
+          "type": "analogInput",
+          "id": 2,
+          "name": "S.W  flow rate non gravity",
+          "field_no": 81
+        },
+        {
+          "type": "analogInput",
+          "id": 1,
+          "name": "Speed water flow rate gravity",
+          "field_no": 82
+        },
+        {
+          "type": "analogInput",
+          "id": 3,
+          "name": "kitchen h.w flow rate",
+          "field_no": 83
+        },
+        {
+          "type": "binaryOutput",
+          "id": 19,
+          "name": "HWRP-03-CMD",
+          "field_no": 84
+        },
+        {
+          "type": "binaryOutput",
+          "id": 28,
+          "name": "HWRP-04-CMD",
+          "field_no": 85
+        },
+        {
+          "type": "binaryOutput",
+          "id": 18,
+          "name": "SCP-01-CMD",
+          "field_no": 86
+        },
+        {
+          "type": "binaryOutput",
+          "id": 25,
+          "name": "SCP-02-CMD",
+          "field_no": 87
+        },
+        {
+          "type": "binaryInput",
+          "id": 73,
+          "name": "SCP-02-A M",
+          "field_no": 88
+        },
+        {
+          "type": "analogInput",
+          "id": 5,
+          "name": "S.W totalised flow non Gravity",
+          "field_no": 89
+        },
+        {
+          "type": "analogInput",
+          "id": 4,
+          "name": "S.W totalised flow Gravity",
+          "field_no": 90
+        },
+        {
+          "type": "analogInput",
+          "id": 6,
+          "name": "kitchen h.w totalised flow",
+          "field_no": 91
+        }
+      ]
+    }
+  ]
+}
