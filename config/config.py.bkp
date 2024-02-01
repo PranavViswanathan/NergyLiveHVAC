@@ -1,0 +1,9 @@
+
+
+HOSTNAME = 'iot.inometrics.com'
+
+READ_BACNET_DATA_URL = f'http://{HOSTNAME}/Api/add_data'
+WRITE_BACNET_DATA_URL = f'http://{HOSTNAME}/Api/get_write_commands'
+WRITE_ACK_URL = f'http://{HOSTNAME}/Api/send_write_ack'
+
+DEVICE_ID = 123456
